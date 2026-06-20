@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Star Wars Datapad Interface</title>
     <style>
-	@font-face {
-	font-family: 'aurabesh';
-	src: url('aurabesh.ttf') format('truetype');
-	}
-		
-	* {
-	font-family: aurabesh;
-	}
+        /* 1. Define the custom font and tell the browser where the file is */
+        @font-face {
+            font-family: 'CustomFont';
+            src: url('aurabesh.ttf') format('truetype');
+        }
+
+        /* 2. Apply the custom font to your page elements */
+        body {
+            font-family: 'CustomFont', sans-serif;
+        }
 	
 	
 	/* Base Datapad Styling */
